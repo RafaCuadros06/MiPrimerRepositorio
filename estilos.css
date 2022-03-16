@@ -44,3 +44,13 @@ h2{
     color: black;
 
 }
+button{
+    text-decoration: none;
+    color: rgb(20, 207, 207);
+    font-weight: 600;
+    font-size: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 40px;
+padding-right: 40px;
+}
