@@ -9,3 +9,17 @@ td{
     border: 1px solid blanchedalmond;
     color: black;
 }
+
+label{
+
+    display: inline-block;
+    color: black;
+    
+    width: 120px;
+    background-color: bisque;
+
+}
+
+div{
+    text-align: center;
+}
