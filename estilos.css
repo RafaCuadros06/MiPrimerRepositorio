@@ -16,7 +16,7 @@ label{
     color: black;
     
     width: 120px;
-    background-color: bisque;
+    /*background-color: bisque;*/
 
 }
 
@@ -34,4 +34,10 @@ div{
 
 h1{
     text-align: center;
+    color: #d1560a;
+}
+
+h2{
+    text-align: justify;
+    color: black;
 }
