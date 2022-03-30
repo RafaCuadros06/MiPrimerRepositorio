@@ -7,6 +7,9 @@ var direccion;
 var fecha;
 var nota;
 var tabla= document.getElementById("tabla");
-var boton= document.getElementById("guardar");
+var guardar= document.getElementById("guardar");
 var contador = 1;
-console.log("Javascript funcionando")
+//console.log("Javascript funcionando");
+guardar.addEventListener("click",function(){
+    console.log("se ha dado click al boton");
+})
