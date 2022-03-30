@@ -17,3 +17,7 @@ input{
     border-radius: 5px;
 }
 
+td{
+    border: 1px solid gray;
+    color: rgb(121, 121, 121);
+}
