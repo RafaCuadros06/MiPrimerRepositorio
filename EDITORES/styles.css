@@ -1,7 +1,19 @@
 *{font-family: Arial, Helvetica, sans-serif;}
 
-
 h1{
     text-align: center;
     color: rgb(141, 9, 9);
 }
+
+input{
+    width: fit-content ;
+}
+
+.tabla{
+    background-color: aliceblue;
+    width: fit-content;
+    border: 1px solid black;
+    padding:  10px 10px 10px;
+    border-radius: 5px;
+}
+
