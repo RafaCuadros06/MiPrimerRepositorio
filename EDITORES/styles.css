@@ -7,7 +7,7 @@ h1{
 }
 
 input{
-    width: fit-content ;
+    width: 150px ;
 }
 
 .tabla{
@@ -21,4 +21,24 @@ input{
 td{
     border: 1px solid gray;
     color: rgb(121, 121, 121);
+}
+
+label {
+    display: inline-block;
+    color: blue;
+    width: 120px;
+    background-color: rgb(153, 155, 155);
+}
+
+div{
+    align-items: center;
+    margin:auto;
+}
+.formulario{
+
+background-color: blueviolet;
+width: fit-content;
+border: 2px solid black;
+padding: 10px 10px 10px;
+border-radius: 20px;
 }
