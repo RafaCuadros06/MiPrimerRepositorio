@@ -10,13 +10,6 @@ input{
     width: 150px ;
 }
 
-.tabla{
-    background-color: aliceblue;
-    width: fit-content;
-    border: 1px solid black;
-    padding:  10px 10px 10px;
-    border-radius: 5px;
-}
 
 td{
     border: 1px solid gray;
@@ -27,7 +20,7 @@ label {
     display: inline-block;
     color: blue;
     width: 120px;
-    background-color: rgb(153, 155, 155);
+   /* background-color: rgb(153, 155, 155);*/
 }
 
 div{
@@ -36,9 +29,17 @@ div{
 }
 .formulario{
 
-background-color: blueviolet;
+background-color: rgb(203, 171, 231);
 width: fit-content;
 border: 2px solid black;
 padding: 10px 10px 10px;
 border-radius: 20px;
+}
+
+.tabla{
+    background-color: aliceblue;
+    width: fit-content;
+    border: 1px solid black;
+    padding:  10px 10px 10px;
+    border-radius: 5px;
 }
