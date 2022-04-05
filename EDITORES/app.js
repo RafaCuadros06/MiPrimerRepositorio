@@ -10,10 +10,8 @@ var tabla= document.getElementById("tabla");
 var guardar= document.getElementById("guardar");
 var contador = 1;
 //console.log("Javascript funcionando");
-guardar.addEventListener("click",function(){
-    console.log("se ha dado click al boton");
-})
- 
+guardar.addEventListener("click",agregarATabla)
+
 function agregarATabla (){
 nombre = document.getElementById("nombre").value;
 apellido = document.getElementById("apellido").value;
@@ -45,7 +43,7 @@ celda4.innerHTML=email;
 celda5.innerHTML=direccion;
 celda6.innerHTML=fecha;
 celda7.innerHTML=nota;
-celda8.innerHTML= '<button class= "btn_danger" onclick="eliminar(this)>Borrar</button>"';
+celda8.innerHTML= '<button class= "btn_danger" onclick="EliminarFila(this)">eliminar</button>'
 contador++;
 
 }
