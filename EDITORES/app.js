@@ -13,7 +13,7 @@ var contador = 1;
 guardar.addEventListener("click",function(){
     console.log("se ha dado click al boton");
 })
-
+ 
 function agregarATabla (){
 nombre = document.getElementById("nombre").value;
 apellido = document.getElementById("apellido").value;
@@ -45,7 +45,7 @@ celda4.innerHTML=email;
 celda5.innerHTML=direccion;
 celda6.innerHTML=fecha;
 celda7.innerHTML=nota;
-celda18.innerHTML= '<button class= "btn_danger" onclick="eliminar(this)>Borrar</button>"';
+celda8.innerHTML= '<button class= "btn_danger" onclick="eliminar(this)>Borrar</button>"';
 contador++;
 
 }
