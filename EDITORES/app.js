@@ -14,12 +14,12 @@ var contador = 1;
 guardar.addEventListener("click",agregarATabla)
 
 function agregarATabla (){
-nombre = document.getElementById("nombre").value ="";
-apellido = document.getElementById("apellido").value ="";
-telefono = document.getElementById("telefono").value ="";
-email = document.getElementById("email").value  ="";
-direccion = document.getElementById("direccion").value ="";
-fecha = document.getElementById("fecha").value ="";
+nombre = document.getElementById("nombre").value ;
+apellido = document.getElementById("apellido").value ;
+telefono = document.getElementById("telefono").value ;
+email = document.getElementById("email").value  ;
+direccion = document.getElementById("direccion").value ;
+fecha = document.getElementById("fecha").value ;
 /*if(nombre==""||apellido==""){
     alert("Todos los campos deben estar llenos")
 }else{ */
