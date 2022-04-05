@@ -47,3 +47,8 @@ celda8.innerHTML= '<button class= "btn_danger" onclick="EliminarFila(this)">elim
 contador++;
 
 }
+
+function eliminarFila(fila){
+    tabla.deleteRow(fila,parentNode.parentNode.rowIndex);
+    contador--;
+}
