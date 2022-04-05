@@ -20,9 +20,9 @@ telefono = document.getElementById("telefono").value ="";
 email = document.getElementById("email").value  ="";
 direccion = document.getElementById("direccion").value ="";
 fecha = document.getElementById("fecha").value ="";
-if(nombre==""||apellido==""){
+/*if(nombre==""||apellido==""){
     alert("Todos los campos deben estar llenos")
-}else{
+}else{ */
 nota = document.getElementById("nota").value;
 console.log(nombre);
 console.log(apellido);
@@ -49,7 +49,7 @@ celda6.innerHTML=fecha;
 celda7.innerHTML=nota;
 celda8.innerHTML= '<button class= "btn_danger" onclick="EliminarFila(this)">eliminar</button>'
 contador++;
-}
+
 }
 
 function EliminarFila(fila){
