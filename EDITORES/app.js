@@ -20,9 +20,7 @@ telefono = document.getElementById("telefono").value ;
 email = document.getElementById("email").value  ;
 direccion = document.getElementById("direccion").value ;
 fecha = document.getElementById("fecha").value ;
-/*if(nombre==""||apellido==""){
-    alert("Todos los campos deben estar llenos")
-}else{ */
+
 nota = document.getElementById("nota").value;
 console.log(nombre);
 console.log(apellido);
@@ -31,6 +29,9 @@ console.log(email);
 console.log(direccion);
 console.log(fecha);
 console.log(nota);
+if(nombre==""||apellido==""){
+    alert("Todos los campos deben estar llenos")
+}else{ 
 var fila = tabla.insertRow(contador);
 var celda1 = fila.insertCell(0);
 var celda2 = fila.insertCell(1);
@@ -49,10 +50,17 @@ celda6.innerHTML=fecha;
 celda7.innerHTML=nota;
 celda8.innerHTML= '<button class= "btn_danger" onclick="EliminarFila(this)">eliminar</button>'
 contador++;
-
+nombre = document.getElementById("nombre").value =="" ;
+apellido = document.getElementById("apellido").value=="" ;
+telefono = document.getElementById("telefono").value =="";
+email = document.getElementById("email").value == "";
+direccion = document.getElementById("direccion").value =="";
+fecha = document.getElementById("fecha").value =="";
 }
 
+}
 function EliminarFila(fila){
-    tabla.deleteRow(fila.parentNode.parentNode.rowIndex);
-    contador--;
+tabla.deleteRow(fila.parentNode.parentNode.rowIndex);
+contador--;
 }
+
