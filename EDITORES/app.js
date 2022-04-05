@@ -8,17 +8,21 @@ var fecha;
 var nota;
 var tabla= document.getElementById("tabla");
 var guardar= document.getElementById("guardar");
+
 var contador = 1;
 //console.log("Javascript funcionando");
 guardar.addEventListener("click",agregarATabla)
 
 function agregarATabla (){
-nombre = document.getElementById("nombre").value;
-apellido = document.getElementById("apellido").value;
-telefono = document.getElementById("telefono").value;
-email = document.getElementById("email").value;
-direccion = document.getElementById("direccion").value;
-fecha = document.getElementById("fecha").value;
+nombre = document.getElementById("nombre").value ="";
+apellido = document.getElementById("apellido").value ="";
+telefono = document.getElementById("telefono").value ="";
+email = document.getElementById("email").value  ="";
+direccion = document.getElementById("direccion").value ="";
+fecha = document.getElementById("fecha").value ="";
+if(nombre==""||apellido==""){
+    alert("Todos los campos deben estar llenos")
+}else{
 nota = document.getElementById("nota").value;
 console.log(nombre);
 console.log(apellido);
@@ -45,10 +49,10 @@ celda6.innerHTML=fecha;
 celda7.innerHTML=nota;
 celda8.innerHTML= '<button class= "btn_danger" onclick="EliminarFila(this)">eliminar</button>'
 contador++;
-
+}
 }
 
-function eliminarFila(fila){
+function EliminarFila(fila){
     tabla.deleteRow(fila.parentNode.parentNode.rowIndex);
     contador--;
 }
