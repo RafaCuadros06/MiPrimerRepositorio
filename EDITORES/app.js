@@ -49,6 +49,6 @@ contador++;
 }
 
 function eliminarFila(fila){
-    tabla.deleteRow(fila,parentNode.parentNode.rowIndex);
+    tabla.deleteRow(fila.parentNode.parentNode.rowIndex);
     contador--;
 }
